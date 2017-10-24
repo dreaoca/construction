@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+}
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(images/dimitry-anikin-383628.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    background-color: #000;
+}
+
+
+h1, h2, p, li, a {
+    font-weight: 300;
+    color: #444;
+}
+
+p, li {
+    font-size: 1em;
+}
+
+p {
+    line-height: 135%;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+h2 {
+    line-height: 2.5;
+    font-size: 1.5em;
+}
+
+div.main {
+    display: block;
+    position: relative;
+    top: 100px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    margin: 1vh 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+    
+}
+
+div.main h1 {
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+}
+
+div.main p {
+    color: rgba(255,255,255,0.60);
+    font-size: 2em;
+    text-align: center;
+    padding: 1vh 15px;
+}
+
+a.main {
+    background: transparent;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    padding: 1.1em 3em;
+    margin-top: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+    background: #5FCEC0;
+    color: #fff;
+    display: block;
+    width: 185px;
+    margin: 0 auto;
+    transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+a.main:hover {
+    background: #3bbfaf;
+    
+}
+
+div.Nav {
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+    z-index: 30;
+    width: 100%;
+    max-height: 100%;
+    background: #222;
+    color: #fff;
+    min-height: 50px;
+    float: right;
+    display: none;
+}
+
+div.Nav ul {
+    display: block;
+    position: relative;
+    margin-right: 50px;
+    float: right;
+}
+
+div.Nav ul li {
+        display: inline-block;
+    padding: 15px;
+
+
+}
+
+div.Nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+} 
+
+div.jump {
+    height: 200px;
+    visibility: hidden; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
